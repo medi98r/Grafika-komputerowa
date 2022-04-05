@@ -61,7 +61,7 @@ public class SubroutineHierarchy extends JPanel {
 
         g2.setTransform(saveTransform);
         g2.translate(1, 1);
-        int n=15;
+        int n=14;
         double r = 150,
                 t=0,
                 k=(Math.PI*2)/n;
