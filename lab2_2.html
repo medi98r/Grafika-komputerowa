@@ -93,6 +93,7 @@
             var r = canvas.getBoundingClientRect();
             x = Math.round(evt.clientX - r.left);  
             y = Math.round(evt.clientY - r.top);
+			graphics.strokeStyle = "black";
             
             /*------------------------------------------------------------*/
             /* TODO: Add support for more drawing tools. */
@@ -116,8 +117,9 @@
             else if (colorChoice == 4) {
                 graphics.fillStyle = "gray";
             }
-	    else if (colorChoice == 5) {
+			else if (colorChoice == 5) {
                 graphics.fillStyle = "white";
+				graphics.strokeStyle = "white";
             }
                         
             if (shapeChoice == 0) {
