@@ -101,7 +101,7 @@ public class Lab5 extends GLJPanel implements GLEventListener, KeyListener{
 		 else if (i<=76)
 		 gl2.glColor3f(0.0f, 0.0f, 1.0f);//niebieski
 		 else if (i<188)
-		 gl2.glColor3f(0.6f, 0.3f, 0.0f);//brÄ…zowy
+		 gl2.glColor3f(0.6f, 0.3f, 0.0f);//br¹zowy
 		 else if(i<300)
 		 gl2.glColor3f(0.5f, 0.0f, 0.0f);// dark red
 		 gl2.glVertex3d(Math.cos(i/10.0),i/50.0,Math.sin(i/10.0));
